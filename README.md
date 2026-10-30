@@ -3,8 +3,9 @@ Disposable public fixture for Hutch GitHub OAuth and review regression testing
 
 ## Workspace analytics smoke check
 
-The `analytics-smoke.mjs` fixture creates a clearly labeled review-and-merge
-event for checking analytics. It has no application integrations or side effects.
+Reviewing and merging changes to `analytics-smoke.mjs` provides a clearly
+labeled analytics event. Running the fixture itself only counts labels; it has
+no application integrations or network side effects.
 
 Run the fixture with:
 
